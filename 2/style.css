@@ -1,0 +1,16 @@
+	article {
+      text-align: center;
+    }
+    h1 {
+      color: Crimson;
+    }
+    a {
+      color: DarkGreen;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    footer {
+    	text-align: center;
+      border-bottom: 2px dashed #000;
+    }
