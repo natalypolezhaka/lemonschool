@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.conteiner {
+	width: 100%;
+   overflow: hidden;
+}
+.header {
+	text-align: center;
+	background-color: aqua;
+	padding: 10px;
+}
+.aside1 {
+	width: 200px;
+	background-color: lightblue;
+	text-align: center;
+	float: left;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.aside2 {
+	width: 200px;
+	background-color: grey;
+	text-align: center;
+	float: right;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.content {
+	margin:0 200px;
+	background-color: indigo;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+}
+.footer {
+	text-align: center;
+	background: yellow;
+	padding: 10px;
+	clear: both;
+}
