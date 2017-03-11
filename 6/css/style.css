@@ -1,0 +1,35 @@
+* {
+	color: black;
+}
+a {
+	margin-left: 5px;
+	display: inline-block;
+	position: relative;
+	text-decoration: none
+}
+ul {
+ 	list-style-type: none;
+ }
+li::before {
+ 	content: '★';
+ 	display: inline-block;
+ }
+ .list li::before {
+ 	content: '☀';
+ }
+ .list>li::before {
+	content: '❤';
+	font-size: 12px;
+}
+a::before {
+   display: block;
+   position: absolute;
+   content: "";
+   height: 2px;
+   width: 50%;
+   background-color: black;
+   bottom: 0;
+ }
+a:hover::before{
+   width: 100%;
+}

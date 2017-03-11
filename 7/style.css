@@ -1,0 +1,91 @@
+li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.battery {
+	width: 100px;
+	height: 40px;
+	border: 2px solid black;
+	position: relative;
+	margin-bottom: 7px;
+}
+.battery::before,
+.battery::after {
+	content: ' ';
+	position: absolute;
+}
+.battery::after {
+	width: 6px;
+	height: 16px;
+	background: black;
+	right: -7px;
+	top: 12px;
+}
+.battery::before {
+	height: 100%;
+}
+.red::before {
+	width: 33%;
+	background: red;
+}
+.yellow::before {
+	width: 66%;
+	background: yellow;
+}
+.green::before{
+	width: 100%;
+	background: green;
+}
+.corners {
+	width: 270px;
+	height: 80px;
+	color: white;
+	padding-left: 10px;
+	position: relative;
+	background: green;
+}
+.corners::before {
+	content: ' ';
+	position: absolute;
+	background: green;
+	width: 7px;
+	height: 70px;
+	bottom: 5px;
+	left: -7px;
+}
+.corners::after {
+	content: ' ';
+	position: absolute;
+	background: green;
+	width: 7px;
+	height: 70px;
+	bottom: 5px;
+	right: -7px;
+}
+.corners>p {
+	padding-top: 30px;
+}
+.button {
+	padding: 5px;
+	position: relative;
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	background: linear-gradient(#FF6EB4, #FFC0CB, #FF6EB4);#FF6EB4;
+	border: 1px solid white;
+
+}
+.button::before {
+background-color: #FF6EB4;
+content: '';
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+border-radius: 20px;
+left: -2px;
+top: -2px;
+padding: 2px;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}	
