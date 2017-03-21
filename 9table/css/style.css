@@ -1,0 +1,25 @@
+/*@import 'reset.css';*/
+table {
+border-collapse: collapse;
+margin:auto;
+box-shadow: 0 0 20px rgba(0,0,0,0.08);
+font: 12px Tahoma;
+}
+tr:nth-child(2n+3) {
+    background: #fbfbfb; /* Цвет фона */
+   } 
+
+   /* hover color #d4d4d4*/
+
+th, td:not(.Type_410) {
+	color: red;
+	text-align: left;
+}
+th, td {
+	border: 1px solid #fff;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 100px;
+	padding-bottom: 10px;
+} 
+

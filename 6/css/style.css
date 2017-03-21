@@ -33,3 +33,6 @@ a::before {
 a:hover::before{
    width: 100%;
 }
+.decor {
+   background-color: white;
+}
