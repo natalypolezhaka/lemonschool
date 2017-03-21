@@ -1,19 +1,28 @@
-/*@import 'reset.css';*/
-table {
-border-collapse: collapse;
-margin:auto;
-box-shadow: 0 0 20px rgba(0,0,0,0.08);
-font: 12px Tahoma;
+@import 'reset.css';
+.wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background-image: linear-gradient(to left top, #e5e5e5, #fff);
+}
+.table {
+	margin:auto;
+}
+.table_same {
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0,0,0,0.08);
+	font: 12px Tahoma;
 }
 tr:nth-child(2n+3) {
     background: #fbfbfb; /* Цвет фона */
    } 
-
-   /* hover color #d4d4d4*/
-
+ tr:nth-child(2n) {
+    background: #fff; /* Цвет фона */
+   } 
 th, td:not(.Type_410) {
 	color: red;
 	text-align: left;
+	font-weight: 300;
 }
 th, td {
 	border: 1px solid #fff;
@@ -21,5 +30,15 @@ th, td {
 	padding-left: 30px;
 	padding-right: 100px;
 	padding-bottom: 10px;
-} 
-
+}
+.first {
+	font-weight: 400;
+	background-color: #fff;
+}
+tr:hover {
+	background: #d4d4d4;
+}
+.down:hover {
+	text-decoration: underline;
+	color: red;
+}
