@@ -42,3 +42,6 @@ tr:hover {
 	text-decoration: underline;
 	color: red;
 }
+td a {
+	width: 100%;
+}
